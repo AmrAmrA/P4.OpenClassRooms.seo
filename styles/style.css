@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a:visited {
+    color: black;
+}
+
+
+footer {
+    background-color: #f3976c;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.social_medias_list {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.social_medias_list span {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
