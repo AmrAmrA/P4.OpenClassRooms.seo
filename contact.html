@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="FR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="keywords" content="Agence, Web-Design, Lyon, développement de sites, portfolio pour particuliers">
+	<meta name="description" content="Page de contact de l'agence La Panthère dans la ville de Lyon">
+    <link rel="shortcut icon" type="image/png" href="favicon.jpg">
+    
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
+	
+    <title> Page de contact - La Panthère </title>
+
+    
+<!-- Analytics -->
+ 
+<!-- Analytics END -->
+    
+</head>
+<body>
+<!-- Principal conteneur -->
+<div class="page-container">
+	<header class="header_contact">
+		<img src="img/agence-la-panthere-monochrome.svg" alt="Logo de l'agence" class="agence_logo">
+			<a href="index.html" class="header_lien">Accueil</a>
+	</header>
+	<hr>
+
+<main class="main_contact">
+	<h1 class="title_contact">Parlons web design !</h1>
+	<p class="paragraph_contact">Nous sommes ravis que vous souhaitiez collaborer avec notre agence. <br>
+	Parlez-nous de votre projet en complétant le formulaire ci-dessous.
+	</p>
+</main>
+
+<div class="boxformulaire">
+	<form action="#"  method="POST">
+		<label for="email" class="labelEmail"> Entrez votre Email</label>
+		<input type="email" name="email" id="email" class="emailInp" required maxlength="50" placeholder="Entrez votre email">
+
+		<div class="flex2inputs">
+			<div class="flexLeftInp">
+				<label for="prenom" class="labelFlex">Entrez votre prénom </label>
+				<input type="text" name="prenom" id="prenom" required maxlength="35" class="flexInp" placeholder="Entrez votre prénom">
+			</div>
+	
+			<div class="flexRightInp">
+				<label for="nom" class="labelFlex">Entrez votre nom </label>
+				<input type="text" name="nom" id="nom" required maxlength="35" class="flexInp" placeholder="Entrez votre nom">
+			</div>
+		</div>
+
+		<div class="labelConnaissance">
+			<label for="connaissance" class="connaissance"> Comment vous nous avez connu ? </label>
+			<textarea name="connaissance" id="connaissance" cols="50" rows="10"></textarea>
+		</div>
+
+		<div class="labelProjet">
+			<label for="projet" class="projet"> Parlez-nous de votre projet (Ajoutez autant de détails que nécessaire)</label>
+			<textarea name="projet" id="projet" cols="50" rows="10"></textarea>	
+		</div>
+
+		<button>Envoyer</button>
+	</form>
+</div>
+<!-- bloc-7 END -->
+
+<footer>
+	<div class="social_medias_list">
+			<div class="twitter_site">
+				<a class="social" href="https://twitter.com/?lang=fr"><span class="fa fa-twitter icon-md" ></span>
+					<p class="social_name">Twitter</p>
+				</a>
+			</div>
+			<div class="facebook_site">
+				<a class="social" href="https://fr-fr.facebook.com/"><span class="fa fa-facebook icon-md"></span>
+					<p class="social_name">Facebook</p>
+				</a>
+			</div>
+		<div class="dribble_site">
+			<a class="social" href="https://twitter.com/?lang=fr"><span class="fa fa-dribbble icon-md"></span>
+				<p class="social_name">Dribble</p>
+			</a>
+		</div>
+		<div class="instagram_site">
+			<a class="social" href="https://www.instagram.com/"><span class="fa fa-instagram icon-md"></span>
+				<p class="social_name">Instagram</p>
+			</a>
+		</div>
+	</div>
+</footer>
+</div>
+	<script src="./js/jquery-2.1.0.js" defer></script>
+	<script src="./js/bootstrap.js" defer></script>
+	<script src="./js/blocs.js" defer></script>
+	<script src="./js/jquery.touchSwipe.js" defer></script>
+	<script src="./js/gmaps.js" defer></script>
+</body>
+</html>
