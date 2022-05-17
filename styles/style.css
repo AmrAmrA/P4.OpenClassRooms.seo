@@ -57,7 +57,8 @@ hr {
     color: #fff;
 }
 
-.section_presentation button {
+.section_presentation button, 
+.bottom_parallax button {
     width: 180px;
     text-align: center;
     height: 49px;
@@ -100,6 +101,7 @@ main h2 {
     text-align: center;
     margin: 50px 10% 50px 10%;
     line-height: 40px;
+    font-weight: normal;
 }
 .services_section {
     display: flex;
@@ -122,18 +124,16 @@ main .fa-solid {
     width: 95%;
     text-align: center;
     font-size: 18px;
+    line-height: 30px;
 }
 
 .temoignage_part {
     text-align: center;
     margin: 50px 10% 50px 10%;
     font-size: 21px;
+    line-height: 30px;
 }
 
-.temoignage_name {
-    font-weight: 800;
-
-}
 
 /* Customers section */
 .customers {
@@ -185,6 +185,7 @@ main .fa-solid {
 .customers_link {
     text-align: center;
     font-size: 18px;
+    color: black;
 }
 
 
@@ -242,6 +243,31 @@ main .fa-solid {
     width: 90%;
     font-size: 18px;
 }
+
+.bottom_parallax {
+    background: url("/img/agence-la-panthere-min.webp");
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 55px;
+}
+
+.bottom_title {
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+}
+
+
+
 /* Footer Section */
 footer {
     background-color: #f3976c;
@@ -258,4 +284,93 @@ footer {
     display: flex;
     justify-content: center;
     margin-bottom: 5px;
+    color: black;
+}
+
+.fa .fa-brands {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+/* Medias Queries */
+/* Header Section */
+@media screen and (max-width : 750px) {
+    .header_lien {
+        display: none;
+    }
+    .header_contact {
+        justify-content: center;
+        align-items: center;
+    }
+    .agence_logo {
+        width: 300px;
+        height: 100px;
+    }
+}
+
+/* Main Section */
+@media screen and (max-width : 815px) {
+    main h2 {
+        margin: 50px 5%;
+    }
+
+    .services_section {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .services_description {
+        width: 100%;
+    }
+
+    .temoignage_part {
+        margin: 50px 3% 
+        ;
+    }
+}
+
+/* Customers Section */
+@media screen and (max-width : 730px) {
+    .customers_text {
+        width: 95%;
+        height: 600px;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width : 500px) {
+    .parallax_customers {
+        height: 1200px;
+    }
+    .customers_text {
+        height: 800px;
+    }
+}
+
+/* Section Portfolio */
+
+@media screen and (max-width : 860px) {
+    .portfolio_photo, .portfolio_container {
+        width: 350px;
+        height: 250px;
+    }
+}
+@media screen and (max-width : 750px) {
+    .portfolio_item {
+        width: 50%;
+    }
+    .portfolio_photo, .portfolio_container {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width : 500px) {
+    .portfolio {
+        margin-top: 830px;
+    }
+}
+@media screen and (max-width : 470px) {
+    .portfolio_photo, .portfolio_container {
+        width: 189%;
+    }
 }

@@ -6,6 +6,9 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+a  {
+    text-decoration: none;
+}
 
 a:visited {
     color: black;
@@ -152,7 +155,11 @@ footer {
     justify-content: center;
     margin-bottom: 5px;
 }
-
+.fa .fa-brands {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
 
 @media (max-width: 700px) {
     .header_contact {
