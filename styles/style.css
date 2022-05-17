@@ -112,7 +112,7 @@ main h2 {
     font-size: 24px;
 }
 
-main .fa-solid {
+main .fa {
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
