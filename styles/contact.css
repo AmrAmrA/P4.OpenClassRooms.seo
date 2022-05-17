@@ -3,16 +3,14 @@ body {
     padding: 0;
     background: #fff;
     overflow-x: hidden;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    font-family:Arial, Helvetica, sans-serif;
 }
 a  {
     text-decoration: none;
 }
 
-a:visited {
-    color: black;
-}
+
+
 .header_contact {
     display: flex;
     justify-content: space-between;
@@ -143,6 +141,9 @@ footer {
     background-color: #f3976c;
     padding-top: 50px;
     padding-bottom: 10px;
+}
+footer p, footer span {
+    color: #000;
 }
 .social_medias_list {
     padding: 0;
