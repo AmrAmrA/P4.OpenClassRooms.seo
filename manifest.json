@@ -1,11 +1,1 @@
-{
-    "name": "La Panthère",
-    "short_name": "LaPanthère",
-    "start_url": "/index.html",
-    "display": "browser",
-    "theme_color" : "#f9376c", 
-    "background_color": "#f9376c",
-    "color": "#FFFFFF",
-    "orientation": "portrait-primary",
-    "icons": [{ "src": "img/favicon.jpg", "type": "image/jpg", "sizes": "72x72" }]
-}
+{"name": "La Panthère", "short_name": "LaPanthère", "start_url": "/index.html", "display": "browser", "theme_color" : "#f9376c", "background_color": "#f9376c", "color": "#FFFFFF", "orientation": "portrait-primary", "icons": [{"src": "img/favicon.jpg", "type": "image/jpg", "sizes": "72x72"}]}
